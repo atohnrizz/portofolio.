@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="brand-title">Atohn Sahai</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skill.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="aboutme.html">About</a></li>
+            <li><a href="contactme.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class="contactme">
+        <a href=https://m.facebook.com/profile.php/?id=61553874131695&name=xhp_nt__fb__action__open_user><img src="Bilder/facebook-logo-facebook-logo-transparent-facebook-icon-transparent-free-free-png.webp" alt="gg"></a>
+        <a href="https://twitter.com/fifatohn"><img src="Bilder/twitter-logo-twitter-icon-transparent-free-free-png.webp" alt="aa"></a>
+        <a href="mailto:atohn200@gmail.com"><img src="Bilder\Gmail_Logo_White_512px.png" alt=""></a>
+    </div>
+    <script>
+      const toggleButton = document.getElementsByClassName('toggle-button')[0]
+          const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+          
+          toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+          })</script>
+</body>
+</html>
